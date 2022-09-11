@@ -1,0 +1,411 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+   background: #000000;
+    font-size: 10px;
+
+  }
+  
+  body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  text-align: start;
+  margin-top: 150px ;
+  margin-bottom: 100px;
+  margin-left: 100px ;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    
+     
+    }
+  }
+  
+  h2 {
+    font-size: 4.0rem;
+  }
+  
+  h3{
+    text-align: start;
+    font-size: 4.0rem;
+    margin-left:120px ;
+      }
+
+  h4{
+    /* background: linear-gradient(105.43deg, rgb(212, 212, 212) 0%, rgb(30, 30, 30) 102.29%); */
+    filter: drop-shadow(5px 5px 5px #565656);
+    font-size: 4.0rem;
+    margin-left: 50px ;
+    border-radius: 5px;
+
+  }
+  
+  h5{
+    /* background: linear-gradient(105.43deg, rgb(212, 212, 212) 0%, rgb(30, 30, 30) 102.29%); */
+    filter: drop-shadow(5px 5px 5px #bfff00);
+    font-size: 4.0rem;
+    margin-left: 50px ;
+    border-radius: 5px;
+
+  }
+
+/* #menu_1{
+  max-width: 50%;
+  display: flex;
+  height: auto;
+  margin: 50px  50px  100px auto;
+ }
+
+
+ #menu_2{
+  max-width: 50%;
+  display: flex;
+  height: auto;
+  margin: 50px  850px  100px auto;
+ } */
+
+/* .menu_foto{
+  max-width: 50%;
+  display: flex;
+  height: auto;
+  margin: 50px  700px  100px auto;
+  } */
+
+
+  a {
+    color: #5395cb;
+
+  }
+  
+  a:visited {
+    color:  #5189b8;
+
+  }
+  
+  #main {
+    margin: 5px 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(105.43deg, rgb(212, 212, 212) 0%, rgb(30, 30, 30) 102.29%);
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  #foto{
+    max-width: 60%;
+  display: block;
+  height: auto;
+  margin: 50px  150px  100px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+  }
+
+
+#image_{
+  max-width: 60%;
+  display: block;
+  height: auto;
+  margin: 50px  550px  100px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #ffffff;
+}
+
+#image{
+    max-width: 60%;
+    display: block;
+    height: auto;
+    margin: 0px  500px  110px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #FFFFFF;
+  }
+  
+.menu_1_2{
+  display: flex;
+}
+
+
+#menu1{
+  max-width: 40%;
+  display: block;
+  height: auto;
+  margin: 0px  50px  110px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+}
+
+#menu2{
+  max-width: 40%;
+  display: block;
+  height: auto;
+  margin: 0px  50px  110px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+}
+
+
+
+#vizitki_vse{
+margin: auto;
+  display: flex;
+  
+  }
+
+
+#vizitka_1{
+  max-width: 90%;
+  display: block;
+  height: auto;
+  margin: 0px  50px  20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+
+}
+
+#vizitka_2{
+  max-width: 90%;
+  display: block;
+  height: auto;
+  margin: 0px  50px  20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+
+}
+
+.vizitka_5_6{
+
+  margin: 0px 0px 0px 18px  ;
+}
+
+#vizitka_3{
+  max-width: 95%;
+  display: block;
+  height: auto;
+  margin: 0px  40px  20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+
+}
+
+#vizitka_4{
+  max-width: 95%;
+  display: block;
+  height: auto;
+  margin: 0px  40px  20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+
+}
+#vizitka_5{
+  max-width: 92%;
+  display: block;
+  height: auto;
+  margin: 0px  50px  20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+
+}
+
+
+#vizitka_6{
+  max-width: 92%;
+  display: block;
+  height: auto;
+  margin: 0px  50px  20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+
+}
+
+/* #image{
+  max-width: 60%;
+  display: block;
+  height: auto;
+  margin: 50px  650px  10px auto;
+  border-radius: 15px;
+} */
+
+  /* #img-div {
+    background: rgb(196, 25, 25);
+    padding: 10px;
+    margin: 0;
+  } */
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+  
+
+  p{ font-size: 30px;
+   font-weight: bolder;
+   color: rgb(255, 255, 255);
+  }
+
+  #instgram_logo{
+
+    max-width: 2%;
+  display: flex;
+  height: auto;
+  margin: 20px  800px  120px auto;
+ 
+  }
+  #color{
+
+    filter:  drop-shadow(8px 8px 8px #0f0f0f);
+  }
+  .sonky_3si{
+
+    display: flex;
+  }
+/* 
+  #baner{
+   max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0px  50px  110px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #FFFFFF;
+padding: 50px 100px 50px auto;}
+   */
+  #baner-2{
+    
+    max-width: 60%;
+    display: block;
+    height: auto;
+    margin: 50px  10px  100px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #ffffff;
+
+  }
+
+#baner_{
+  max-width: 40%;
+  display: block;
+  height: auto;
+  margin: 50px  10px  100px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #ffffff;
+}
+   
+#reklama_divan{
+
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 10px  310px  50px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #ffffff;
+
+}
+
+
+.sonky_4si{
+  display: flex;
+}
+
+
+#sertifikat_yuzi{
+    
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 50px  10px  50px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #ffffff;
+
+}
+
+
+#sertifikat_yzy{
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 70px  10px  50px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #ffffff;
+}
+
+h6{
+  /* background: linear-gradient(105.43deg, rgb(212, 212, 212) 0%, rgb(30, 30, 30) 102.29%); */
+  filter: drop-shadow(5px 5px 5px #00ffdd);
+  font-size: 4.0rem;
+  /* margin-left: 10px ; */
+  border-radius: 5px;
+
+}
+#Advertising{
+    /* background: linear-gradient(105.43deg, rgb(212, 212, 212) 0%, rgb(30, 30, 30) 102.29%); */
+    filter: drop-shadow(5px 5px 5px #00aaff);
+    font-size: 4.0rem;
+    /* margin-left: 10px ; */
+    border-radius: 5px;
+  
+}
+
+#Certificate{
+   /* background: linear-gradient(105.43deg, rgb(212, 212, 212) 0%, rgb(30, 30, 30) 102.29%); */
+   filter: drop-shadow(5px 5px 5px #ae00ff);
+   font-size: 4.0rem;
+   /* margin-left: 10px ; */
+   border-radius: 5px;
+}
+#retuss{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 10px  190px  50px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #ffffff; 
+}
+
+
+#color{
+  background-color: #000000;
+
+}
